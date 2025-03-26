@@ -155,22 +155,27 @@ function Products() {
 
 <div className="container-fluid">
   <div className="row">
-    {/* Video Section */}
     <div className="col-6 bg-body-secondary">
       <div className="card">
-        <video controls style={{ width: "700px", height: "350px" }}>
-          <source src="ecommerce_project/multi" type="video/mp4" />
-        </video>
+        <iframe
+          width="700"
+          height="350"
+          src="https://www.youtube.com/embed/1gTvEIpl8K0?si=Qc9ybdvPU-q23SZ3"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
         <div className="card-body">
           <h5 className="card-title">NS Fashion Trends</h5>
           <p className="card-text">
             Get Discounted Jackets for Women Online Today at NS Fashion Store
           </p>
-          <a href="#" className="btn btn-danger">15% Discount</a>
+          <a href="#" className="btn btn-danger me-2">15% Discount</a>
           <a href="#" className="btn btn-danger">Shop Now</a>
         </div>
       </div>
     </div>
+
 
    
     <div className="col-3 bg-body-secondary">
